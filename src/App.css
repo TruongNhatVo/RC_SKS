@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-color:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.list-color li {
+  float: left;
+  margin-right: 20px;
+  background: red;
+  width: 40px;
+  height: 40px;
+}
+
+.list-color li {
+  cursor: pointer;
+}
+
+.list-color li.active {
+  border: 3px solid grey;
+}
+
+#App {
+  margin-top: 40px;
+}
+
+.resultText {
+  border: 2px solid green;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.sizeSelect .btn-info {
+  margin-right: 20px;
+}
